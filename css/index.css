@@ -8,3 +8,83 @@ html,body {
   width: 100%;
   height: 100%;
 }
+.page-baidu {
+  width: 100%;
+  height: auto;
+  /* background-color: rgb(199, 221, 170); */
+}
+/* navigation bar */
+nav {
+  background-color: red;
+  width: 100%;
+  height: 34px;
+  border-bottom: 1px solid #666
+}
+.nav-left {
+  background-color: rgb(168, 168, 212);
+  float: left;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.nav-left ul {
+}
+.nav-left li {
+  float: left;
+  border:1px solid;
+}
+.nav-left .cloud {
+  background-image: url(./images/a7.png);
+}
+.nav-right {
+  background-color: rgb(168, 168, 212);
+  float: right;
+}
+.nav-right li {
+  float: left;
+  border:1px solid;
+}
+/* search-loge */
+main {
+  margin: 0 auto;
+  /* background-color: green; */
+  width: 640px;
+  height: 327px;
+}
+.loge {
+  /* background-color: rgb(49, 75, 221); */
+  text-align: center;
+
+  height: 190px;
+}
+.loge img {  
+  width: 270px;
+  margin-top: 45px;
+}
+.search {
+  background-color: rgb(224, 102, 102);
+  width: 100%;
+  height: 40px;  
+}
+.search-text {
+  height: 100%;
+  width: 534px;
+  border: 1px solid #999;
+  padding: 13px;
+  font-size: 20px;
+}
+.search-btn {
+  height: 100%;
+  width: 106px;
+  float: right;
+  border: 1px solid #317EF3;
+  background-color: #317EF3;
+  color: #fff;
+}
+/* product-aside */
+article {
+  width: 896px;
+  height: 800px;
+  margin: 0 auto;
+  box-shadow: 0 0 3px 3px rgb(170, 165, 165)
+}
