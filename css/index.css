@@ -15,34 +15,61 @@ html,body {
 }
 /* navigation bar */
 nav {
-  background-color: red;
+  /* background-color: rgb(204, 156, 156); */
   width: 100%;
   height: 34px;
-  border-bottom: 1px solid #666
+  border-bottom: 1px solid #EBEBEB
 }
 .nav-left {
-  background-color: rgb(168, 168, 212);
+  /* background-color: rgb(1, 1, 19); */
   float: left;
   height: 100%;
   display: flex;
   align-items: center;
 }
-.nav-left ul {
-}
 .nav-left li {
   float: left;
-  border:1px solid;
+  /* border:1px solid; */
+  margin-left: 10px;
+}
+.nav-left a {
+  color: #555
 }
 .nav-left .cloud {
-  background-image: url(./images/a7.png);
+  display: inline-block;
+  /* background-color: #fff; */
+  background: url(../images/a7.png);
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.nav-left .air {
+  color: #3388FF;
+  font: bolder;
 }
 .nav-right {
-  background-color: rgb(168, 168, 212);
+  /* background-color: rgb(168, 168, 212); */
+  height: 100%;
   float: right;
+  display: flex;
+  align-items: center;
 }
 .nav-right li {
   float: left;
-  border:1px solid;
+  padding: 0 8px;
+}
+.nav-right button {
+  height:100%;
+  border: none;
+  padding: 0 10px;
+  background-color: #398BFB;
+}
+.nav-right button a {  
+  text-decoration: none;
+  color: #fff;
+}
+.nav-right li a {
+  color: #555;
 }
 /* search-loge */
 main {
@@ -81,10 +108,183 @@ main {
   background-color: #317EF3;
   color: #fff;
 }
-/* product-aside */
+
+/* --------------article-start------------- */
 article {
   width: 896px;
-  height: 800px;
+  height: 480px;
   margin: 0 auto;
-  box-shadow: 0 0 3px 3px rgb(170, 165, 165)
+  /* box-shadow: 0 0 3px 3px rgb(170, 165, 165); */
+  border:1px solid #EBEBEB;
+  overflow: hidden;
+}
+/* ------------------login */
+.login {
+  height: 40px;
+  /* background-color: red; */
+  border-bottom:1px solid #EBEBEB;
+}
+.login .active {
+  background-color: #9A9DA2;
+}
+.login .active a {
+  color: #fff;
+}
+.login li {
+  float: left;
+  background-color: #fff;
+  height: 40px;
+  line-height: 38px;
+  padding: 0 27px;
+}
+.login li a {
+  text-decoration: none;
+  color: #111;
+}
+.user-img {
+  display: inline-block;
+  background: url(../images/card_setts_fdb17359.png) -14px 0px;
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+  padding-right: 6px;
+}
+.login .set {
+  float: right;
+  background-color: #fff;
+  width: 22px;
+  height: 22px;
+  background: url(../images/card_setts_fdb17359.png) -120px -47px #fff;
+  margin-top: 10px;
+  margin-right: 21px;
+}
+/* --------------------news */
+.news {
+  height: 440px;
+  /* background-color: green;s */
+}
+.new-list {
+  width: 590px;
+  height: 100%;
+  /* background-color: rgb(203, 203, 241); */
+  float: left;
+}
+.new-list-in {
+  height: 100%;
+  width: 540px;
+  margin: 0 auto;
+  background-color: #fff;
+  margin-top: 16px;
+}
+.new-list-in .new-header {
+  /* background-color: rgb(240, 204, 204); */
+  height: 14px;
+  font-size: 12px;
+  line-height: 14px;
+  color: #999;
+}
+.new-header span:nth-child(2) {
+  margin:0 auto;
+  padding: 0 12px;
+  
+}
+.new-header .baidu-icon {
+  display: inline-block;
+  height: 100%;
+  width: 16px;
+  background: url(../images/news_88aeb6fe.png) #fff -44px 0;
+}
+.new-header .header-line {
+  display: inline-block;
+  border-bottom: 1px solid #EBEBEB;
+  width: 174px;
+  height: 50%;
+  /* background-color: red; */
+}
+.header-line-right {
+  float: right;
+}
+.new-list-in .new-main {
+  border-bottom: 01px solid #EBEBEB;
+  margin-top: 6px
+}
+.new-list-in .new-main h3 {
+  margin: 16px 0;
+}
+.source-date {
+  margin: 16px 0;
+  font-size: 12px;
+  color: #999
+}
+.new-aside {
+  height: 100%;
+  width: 306px;
+  /* background-color: rgb(233, 233, 190); */
+  float: right;
+}
+.new-aside .aside-header {
+  height: 64px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.aside-header .refresh {
+  margin-right: 38px;
+}
+.aside-header .refresh-icon {
+  background: url(../images/news_88aeb6fe.png) #fff -22px -21px ;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  
+}
+.new-title ul {
+  float: left;
+  width: 145px;
+}
+.new-title li {
+  margin-bottom: 22px;
+}
+.new-icon {
+  background: url(../images/news_88aeb6fe.png) #FFF -57px 19px;
+  display: inline-block;
+  width: 17px;
+  height: 20px;
+}
+/* ------------add-more-------------- */
+.add-more {
+  /* background-color: red; */
+  height: 98px;
+  width: 72px;
+  margin: 0 auto;
+}
+.add-more button {
+  border: none;
+  margin-top: 24px;
+  font-size: 12px;
+  color: #999;
+  background-color: #fff;
+}
+.pull-down {
+  background: url(../images/card_setts_fdb17359.png) #fff 8px -33px;
+  width: 50px;
+  height: 30px;
+  margin: 10px auto 0;  
+}
+/* ----------------------------article-end------------------- */
+/* footer */
+.copy-right {
+  font-size: 10px;
+  color: #666;
+}
+.copy-right a {
+  font-size: 10px;
+  color: #666;
+}
+.copy-right div:first-child {
+  text-align: center;
+}
+.copy-right div:last-child {
+  text-align: center;
 }
